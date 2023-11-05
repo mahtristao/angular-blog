@@ -1,0 +1,68 @@
+/* Reset de estilos para evitar diferenças entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Configurações gerais para todos os cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 400px;
+  height: 600px;
+  margin: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.card__photo {
+  max-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.card__title > h2 {
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.card__description {
+  margin-top: 20px;
+}
+
+.card__description > p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #969696;
+}
+
+.card__category > label {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.card__date {
+  font-size: 10px;
+  color: #969696;
+}
+
+.card__category, .card__date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}

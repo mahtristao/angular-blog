@@ -1,0 +1,22 @@
+header  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+.container__articles {
+  margin-top: 3px;
+  display: flex;
+  flex-direction: row; /* Altere para "row" para alinhar os cards lado a lado */
+  flex-wrap: wrap; /* Adicione "flex-wrap" para permitir que os cards quebrem para a próxima linha quando não couberem na largura da tela */
+  justify-content: space-between; /* Para adicionar espaço entre os cards */
+}
+
+
+
+
+
+
